@@ -6,7 +6,7 @@ function Btn({counter,setCounter}) {
         setCounter(counter + 3);
     }
      const minus = () => {
-        if(counter>0){
+        if(counter > 1){
             setCounter(counter - 2);
         }else
             setCounter(0);
